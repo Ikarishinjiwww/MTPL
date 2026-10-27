@@ -85,7 +85,7 @@ font-variation-settings:"opsz" 144;text-wrap:balance}
 main{display:block}
 .sec{padding:30px 0 34px;border-top:1px solid var(--rule);scroll-margin-top:8px}
 .sec.first{border-top:1.5px solid var(--ink)}
-.mast+main .sec:first-child,.sec#s1{margin-top:28px}
+.mast+main .sec:first-child,.sec#s2{margin-top:28px}
 .part{display:flex;align-items:center;gap:10px;margin:0 0 20px;font:600 11px/1 var(--num);letter-spacing:.17em;text-transform:uppercase;color:var(--cool)}
 .part .l-ja{font-family:var(--jp);font-weight:500;font-size:11.5px;letter-spacing:.14em}
 .pd{display:inline-flex;gap:4px}
@@ -197,7 +197,7 @@ font:600 13px/1 var(--num);letter-spacing:.01em;cursor:pointer;-webkit-appearanc
 @media (hover:hover){.rail a:hover .lbl{color:var(--ink)}}
 .cur{display:none}
 main{padding:64px 0 72px}
-.sec#s1{margin-top:0}
+.sec#s2{margin-top:0}
 .sec{padding:38px 0 42px;scroll-margin-top:28px}
 .num{font-size:72px}
 .tt{font-size:36px}
@@ -238,7 +238,7 @@ main{padding:0}
   </div>
   <div class="bar" id="bar">
     <nav class="rail" aria-label="Sections">
-      <ol><li><a href="#s1" data-p="0"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">Introduction</span><span class="l-ja" lang="ja">はじめに</span></span></a></li><li><a href="#s5" data-p="1"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">Method</span><span class="l-ja" lang="ja">方法</span></span></a></li><li><a href="#s6" data-p="2"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">Possible results</span><span class="l-ja" lang="ja">予想される結果</span></span></a></li><li><a href="#s7" data-p="3"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">Future directions</span><span class="l-ja" lang="ja">今後の展望</span></span></a></li><li><a href="#refs" data-p="4"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">References</span><span class="l-ja" lang="ja">参考文献</span></span></a></li></ol>
+      <ol><li><a href="#s2" data-p="0"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">Introduction</span><span class="l-ja" lang="ja">はじめに</span></span></a></li><li><a href="#s5" data-p="1"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">Method</span><span class="l-ja" lang="ja">方法</span></span></a></li><li><a href="#s6" data-p="2"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">Possible results</span><span class="l-ja" lang="ja">予想される結果</span></span></a></li><li><a href="#s7" data-p="3"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">Future directions</span><span class="l-ja" lang="ja">今後の展望</span></span></a></li><li><a href="#refs" data-p="4"><i class="dot"></i><span class="lbl"><span class="l-en" lang="en">References</span><span class="l-ja" lang="ja">参考文献</span></span></a></li></ol>
       <span class="cur" aria-hidden="true"><span class="cw"></span></span>
     </nav>
     <div class="lang" role="group" aria-label="Language / 言語">
@@ -250,20 +250,11 @@ main{padding:0}
 </header>
 <main id="main">
 
-<section class="sec first" id="s1" data-part="0" aria-labelledby="h1">
-  <p class="part"><span class="pd" aria-hidden="true"><i class=on></i><i></i><i></i><i></i><i></i></span><span class="l-en" lang="en">Introduction</span><span class="l-ja" lang="ja">はじめに</span></p>
-  <h2 class="sh" id="h1"><span class="num" aria-hidden="true">01</span><span class="tt"><span class="vh">1. </span><span class="l-en" lang="en">The live <em>experiment</em></span><span class="l-ja" lang="ja"><span class="ph">その場の<em>実験</em></span></span></span></h2>
+<section class="sec first" id="s2" data-part="0" aria-labelledby="h2">
+   <p class="part"><span class="pd" aria-hidden="true"><i class=on></i><i></i><i></i><i></i><i></i></span><span class="l-en" lang="en">Introduction</span><span class="l-ja" lang="ja">はじめに</span></p>
+
   
-  <p class="sum"><span class="l-en" lang="en">Step one: give your feeling right now a number, <span class="n">−3</span> to <span class="n">+3</span>. Step two: give it one word. Which step took longer? Did your number move after the word? Those extra seconds are the whole project.</span><span class="l-ja" lang="ja">ステップ<span class="n">1</span>：今の気持ちに <span class="n">−3〜+3</span> の数字をつける。ステップ<span class="n">2</span>：ひとつの「ことば」をつける。どちらに時間がかかりましたか？ ことばをつけたあと、数字は動きましたか？ その数秒の差が、このプロジェクトの全部です。</span></p>
-  <button class="xb" type="button" aria-expanded="false" aria-controls="m1">
-    <svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path class="h" d="M3 8h10"/><path class="v" d="M8 3v10"/></svg>
-    <span class="xl"><span class="x-more"><span class="l-en" lang="en">More</span><span class="l-ja" lang="ja">詳しく</span></span><span class="x-less"><span class="l-en" lang="en">Less</span><span class="l-ja" lang="ja">閉じる</span></span></span>
-  </button>
-  <div class="more" id="m1" hidden="until-found"><div class="mi"><p><span class="l-en" lang="en">The two steps are exactly what the Apple Health “State of Mind” screen asks: a slider from very unpleasant to very pleasant, then optional emotion words. In this study, A weeks use only the slider; B weeks add the words, a cause, and one typed line.</span><span class="l-ja" lang="ja">この<span class="n">2</span>ステップは、iPhoneの「ヘルスケア」アプリにある「心の状態」の画面そのものです。「とても不快」から「とても快適」までのスライダーと、任意で選ぶ感情のことば。この研究では、A週はスライダーだけ、B週はことば・原因・一言メモを追加します。</span></p></div></div>
-</section>
-<section class="sec" id="s2" data-part="0" aria-labelledby="h2">
-  
-  <h2 class="sh" id="h2"><span class="num" aria-hidden="true">02</span><span class="tt"><span class="vh">2. </span><span class="l-en" lang="en">Two <em>keywords</em></span><span class="l-ja" lang="ja"><span class="ph">キーワード</span></span></span></h2>
+  <h2 class="sh" id="h2"><span class="num" aria-hidden="true">01</span><span class="tt"><span class="vh">2. </span><span class="l-en" lang="en">Two <em>keywords</em></span><span class="l-ja" lang="ja"><span class="ph">キーワード</span></span></span></h2>
   
   <p class="sum"><span class="l-en" lang="en"><em>Mood tracking</em> — recording how you feel, regularly, and looking back later. <em>Putting feelings into words</em> — giving a feeling a name. Researchers call this <em>affect labeling</em> (<span lang="ja" class="jpf">感情ラベリング</span>).</span><span class="l-ja" lang="ja"><em>Mood tracking</em>（気分の記録）— 気持ちを定期的に記録し、あとで振り返ること。<em>Putting feelings into words</em>（気持ちをことばにする）— 感情に名前をつけること。研究では <em>affect labeling</em>（感情ラベリング）と呼ばれます。</span></p>
   <button class="xb" type="button" aria-expanded="false" aria-controls="m2">
@@ -274,7 +265,7 @@ main{padding:0}
 </section>
 <section class="sec" id="s3" data-part="0" aria-labelledby="h3">
   
-  <h2 class="sh" id="h3"><span class="num" aria-hidden="true">03</span><span class="tt"><span class="vh">3. </span><span class="l-en" lang="en">What three studies <em>found</em></span><span class="l-ja" lang="ja"><span class="ph">先行研究</span></span></span></h2>
+  <h2 class="sh" id="h3"><span class="num" aria-hidden="true">02</span><span class="tt"><span class="vh">3. </span><span class="l-en" lang="en">What three studies <em>found</em></span><span class="l-ja" lang="ja"><span class="ph">先行研究</span></span></span></h2>
   
   <p class="sum"><span class="l-en" lang="en">In the lab, naming a feeling makes it <em>weaker</em> <span class="cite">(Torre &amp; Lieberman, 2018)</span>. In daily life, choosing words every day for two weeks made older adults’ moods <em>calmer</em> <span class="cite">(Yang et al., 2022)</span>. But writing your own words for a positive feeling made it <em>stronger</em> first <span class="cite">(Fujii &amp; Nakagawa, 2025)</span>. The research does not agree.</span><span class="l-ja" lang="ja">実験室では、感情に名前をつけると<em>弱まる</em><span class="cite">（Torre &amp; Lieberman, 2018）</span>。日常生活では、<span class="n">2</span>週間毎日ことばを選んだ高齢者の気分が<em>安定した</em><span class="cite">（Yang et al., 2022）</span>。しかし正の感情に自分でことばを書くと、その感情はまず<em>強まった</em><span class="cite">（Fujii &amp; Nakagawa, 2025）</span>。研究の結果は一致していません。</span></p>
   <button class="xb" type="button" aria-expanded="false" aria-controls="m3">
@@ -285,7 +276,7 @@ main{padding:0}
 </section>
 <section class="sec" id="s4" data-part="0" aria-labelledby="h4">
   
-  <h2 class="sh" id="h4"><span class="num" aria-hidden="true">04</span><span class="tt"><span class="vh">4. </span><span class="l-en" lang="en">The question <em>nobody asked</em></span><span class="l-ja" lang="ja"><span class="ph">この研究の<em>問い</em></span></span></span></h2>
+  <h2 class="sh" id="h4"><span class="num" aria-hidden="true">03</span><span class="tt"><span class="vh">4. </span><span class="l-en" lang="en">The question <em>nobody asked</em></span><span class="l-ja" lang="ja"><span class="ph">この研究の<em>問い</em></span></span></span></h2>
   
   <p class="sum"><span class="l-en" lang="en">These studies compared words with no words. But the slider number is already a tiny word. So the practical question for anyone using the app is: the number alone, or the number plus a word plus a reason — does the extra step change how much mood swings within a day?</span><span class="l-ja" lang="ja">これらの研究は「ことばあり」と「ことばなし」を比べています。でも、スライダーの数字はすでに小さな「ことば」です。だからアプリを使う人にとっての実際の問いはこうなります。数字だけか、数字＋ことば＋理由か。その一手間で、<span class="n">1</span>日のなかの気分の揺れは変わるのか。</span></p>
   <button class="xb" type="button" aria-expanded="false" aria-controls="m4">
@@ -296,7 +287,7 @@ main{padding:0}
 </section>
 <section class="sec first" id="s5" data-part="1" aria-labelledby="h5">
   <p class="part"><span class="pd" aria-hidden="true"><i></i><i class=on></i><i></i><i></i><i></i></span><span class="l-en" lang="en">Method</span><span class="l-ja" lang="ja">方法</span></p>
-  <h2 class="sh" id="h5"><span class="num" aria-hidden="true">05</span><span class="tt"><span class="vh">5. </span><span class="l-en" lang="en">Method: four weeks, <span class="ab"><span>A</span> <em>B</em> <span>A</span> <em>B</em></span></span><span class="l-ja" lang="ja"><span class="ph">方法</span></span></span></h2>
+  <h2 class="sh" id="h5"><span class="num" aria-hidden="true">04</span><span class="tt"><span class="vh">5. </span><span class="l-en" lang="en">Method: four weeks, <span class="ab"><span>A</span> <em>B</em> <span>A</span> <em>B</em></span></span><span class="l-ja" lang="ja"><span class="ph">方法</span></span></span></h2>
   <div class="abab" aria-hidden="true"><div class="ph-col"><span class="lt">A</span><span class="k">A1</span><span class="d"><span class="l-en" lang="en">Oct 12–18</span><span class="l-ja" lang="ja">10/12–18</span></span><span class="days"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div><div class="ph-col b"><span class="lt">B</span><span class="k">B1</span><span class="d"><span class="l-en" lang="en">Oct 19–25</span><span class="l-ja" lang="ja">10/19–25</span></span><span class="days"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div><div class="ph-col now"><span class="lt">A</span><span class="k">A2</span><span class="d"><span class="l-en" lang="en">Oct 26–Nov 1</span><span class="l-ja" lang="ja">10/26–11/1</span></span><span class="days"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="today"><span class="l-en" lang="en">Today · <span class="n">day 17</span></span><span class="l-ja" lang="ja">今日 · <span class="n">17</span>日目</span></span></div><div class="ph-col b"><span class="lt">B</span><span class="k">B2</span><span class="d"><span class="l-en" lang="en">Nov 2–8</span><span class="l-ja" lang="ja">11/2–8</span></span><span class="days"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div></div>
   <p class="sum"><span class="l-en" lang="en">One person (me). Four weeks, seven days each: <span class="n">A1 Oct 12–18</span> · <span class="n">B1 Oct 19–25</span> · <span class="n">A2 Oct 26–Nov 1</span> · <span class="n">B2 Nov 2–8</span>. Four check-ins a day (<span class="n">10:00</span>, <span class="n">13:30</span>, <span class="n">17:30</span>, <span class="n">21:30</span>) plus one whole-day mood at bedtime. A = the slider only. B = slider + <span class="n">1–2</span> emotion words + a cause + one typed line about why. All rules were written down and dated (<span class="n">2026-10-11</span>) before day one.</span><span class="l-ja" lang="ja">参加者は私ひとり。<span class="n">7</span>日ずつ<span class="n">4</span>週間：<span class="n">A1 10/12–18</span> · <span class="n">B1 10/19–25</span> · <span class="n">A2 10/26–11/1</span> · <span class="n">B2 11/2–8</span>。<span class="n">1</span>日<span class="n">4</span>回の記録（<span class="n">10:00</span>、<span class="n">13:30</span>、<span class="n">17:30</span>、<span class="n">21:30</span>）と、就寝前に<span class="n">1</span>回「<span class="n">1</span>日の気分」。A＝スライダーのみ。B＝スライダー＋感情のことば<span class="n">1〜2</span>個＋原因＋理由を一言。ルールはすべて開始前に文章化し、日付を入れました（<span class="n">2026-10-11</span>）。</span></p>
   <button class="xb" type="button" aria-expanded="false" aria-controls="m5">
@@ -307,9 +298,9 @@ main{padding:0}
 </section>
 <section class="sec first" id="s6" data-part="2" aria-labelledby="h6">
   <p class="part"><span class="pd" aria-hidden="true"><i></i><i></i><i class=on></i><i></i><i></i></span><span class="l-en" lang="en">Possible results</span><span class="l-ja" lang="ja">予想される結果</span></p>
-  <h2 class="sh" id="h6"><span class="num" aria-hidden="true">06</span><span class="tt"><span class="vh">6. </span><span class="l-en" lang="en">Possible <em>results</em></span><span class="l-ja" lang="ja"><span class="ph">予想される<em>結果</em></span></span></span></h2>
+  <h2 class="sh" id="h6"><span class="num" aria-hidden="true">05</span><span class="tt"><span class="vh">6. </span><span class="l-en" lang="en">Possible <em>results</em></span><span class="l-ja" lang="ja"><span class="ph">予想される<em>結果</em></span></span></span></h2>
   
-  <p class="sum"><span class="l-en" lang="en">Two possible endings: B weeks swing less (the words calm things down), or the same or more (writing why keeps it going). Week <span class="n">4</span> audience check: nobody understood the term “affect labeling”; everyone understood one example — which is why the talk started with the experiment, not the word.</span><span class="l-ja" lang="ja">結末は二つ。B週の揺れが小さくなる（ことばが落ち着かせる）か、同じか大きくなる（理由を書くことで続く）か。第<span class="n">4</span>週のオーディエンス分析では、「感情ラベリング」ということばは誰にも伝わらず、具体例ひとつで全員に伝わりました。発表をことばではなく実験から始めたのはそのためです。</span></p>
+  <p class="sum"><span class="l-en" lang="en">Two possible endings: B weeks swing less (the words calm things down), or the same or more (writing why keeps it going). Week <span class="n">4</span> audience check: nobody understood the term “affect labeling”; everyone understood one example — which is why the talk starts from an example, not the term.</span><span class="l-ja" lang="ja">結末は二つ。B週の揺れが小さくなる（ことばが落ち着かせる）か、同じか大きくなる（理由を書くことで続く）か。第<span class="n">4</span>週のオーディエンス分析では、「感情ラベリング」ということばは誰にも伝わらず、具体例ひとつで全員に伝わりました。発表を用語ではなく具体例から始めるのはそのためです。</span></p>
   <button class="xb" type="button" aria-expanded="false" aria-controls="m6">
     <svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path class="h" d="M3 8h10"/><path class="v" d="M8 3v10"/></svg>
     <span class="xl"><span class="x-more"><span class="l-en" lang="en">More</span><span class="l-ja" lang="ja">詳しく</span></span><span class="x-less"><span class="l-en" lang="en">Less</span><span class="l-ja" lang="ja">閉じる</span></span></span>
@@ -318,7 +309,7 @@ main{padding:0}
 </section>
 <section class="sec first" id="s7" data-part="3" aria-labelledby="h7">
   <p class="part"><span class="pd" aria-hidden="true"><i></i><i></i><i></i><i class=on></i><i></i></span><span class="l-en" lang="en">Future directions</span><span class="l-ja" lang="ja">今後の展望</span></p>
-  <h2 class="sh" id="h7"><span class="num" aria-hidden="true">07</span><span class="tt"><span class="vh">7. </span><span class="l-en" lang="en">Where I am <em>now</em></span><span class="l-ja" lang="ja"><span class="ph">現在地</span></span></span></h2>
+  <h2 class="sh" id="h7"><span class="num" aria-hidden="true">06</span><span class="tt"><span class="vh">7. </span><span class="l-en" lang="en">Where I am <em>now</em></span><span class="l-ja" lang="ja"><span class="ph">現在地</span></span></span></h2>
   
   <p class="sum"><span class="l-en" lang="en">Two weeks done: <span class="n">56</span> check-ins, <span class="n">0</span> missed. Today is day <span class="n">17</span> of <span class="n">28</span> (<span class="n">A2</span>, day <span class="n">3</span>). The data exist but are sealed until November <span class="n">8</span>: as both researcher and participant, I must not see whether B “looks better” before the last two weeks are recorded.</span><span class="l-ja" lang="ja"><span class="n">2</span>週間が終了：記録<span class="n">56</span>回、欠測<span class="n">0</span>。今日は<span class="n">28</span>日中の<span class="n">17</span>日目（<span class="n">A2</span>の<span class="n">3</span>日目）。データはありますが、<span class="n">11</span>月<span class="n">8</span>日まで封印しています。研究者であり参加者でもあるので、残り<span class="n">2</span>週間を記録する前に「Bの方が良さそう」と知ってはいけないからです。</span></p>
   <button class="xb" type="button" aria-expanded="false" aria-controls="m7">
@@ -329,7 +320,7 @@ main{padding:0}
 </section>
 <section class="sec" id="s8" data-part="3" aria-labelledby="h8">
   
-  <h2 class="sh" id="h8"><span class="num" aria-hidden="true">08</span><span class="tt"><span class="vh">8. </span><span class="l-en" lang="en">Try it <em>yourself</em></span><span class="l-ja" lang="ja"><span class="ph">自分で試す</span></span></span></h2>
+  <h2 class="sh" id="h8"><span class="num" aria-hidden="true">07</span><span class="tt"><span class="vh">8. </span><span class="l-en" lang="en">Try it <em>yourself</em></span><span class="l-ja" lang="ja"><span class="ph">自分で試す</span></span></span></h2>
   
   <p class="sum"><span class="l-en" lang="en"><span class="path"><span class="pi">iPhone</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">Health app</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">Browse</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">Mental Wellbeing</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">State of Mind</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">Log</span></span>. Step one is the slider. Step two (words and a cause) is optional — that choice is exactly what this project is about.</span><span class="l-ja" lang="ja"><span class="path"><span class="pi">iPhone</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">ヘルスケア</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">ブラウズ</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">心の健康状態</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">心の状態</span><span class="to" role="img" aria-label="→"><svg viewBox="0 0 16 12" aria-hidden="true"><path d="M1 6h13M9.5 1.5 14 6l-4.5 4.5"/></svg></span><wbr><span class="pi">記録</span></span>。ステップ<span class="n">1</span>がスライダー。ステップ<span class="n">2</span>（ことばと原因）は任意です。その「任意」の部分が、このプロジェクトのテーマです。</span></p>
   <button class="xb" type="button" aria-expanded="false" aria-controls="m8">
